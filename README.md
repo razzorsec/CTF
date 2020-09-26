@@ -64,3 +64,145 @@ ABI:
 
 ]
 ```
+
+# Unlock Me
+Hint: Find the result.(No Unintended Way)  
+Flag Format: HACSEC{result}  
+Address: 0xdd42d04096d27274e72b9807cd19cc66c2dbeafc  
+ABI:  
+```[
+
+	{
+
+		"constant": false,
+
+		"inputs": [],
+
+		"name": "feedme",
+
+		"outputs": [],
+
+		"payable": true,
+
+		"stateMutability": "payable",
+
+		"type": "function"
+
+	},
+
+	{
+
+		"inputs": [],
+
+		"payable": false,
+
+		"stateMutability": "nonpayable",
+
+		"type": "constructor"
+
+	},
+
+	{
+
+		"constant": true,
+
+		"inputs": [],
+
+		"name": "flag",
+
+		"outputs": [
+
+			{
+
+				"internalType": "bytes20",
+
+				"name": "result",
+
+				"type": "bytes20"
+
+			}
+
+		],
+
+		"payable": false,
+
+		"stateMutability": "view",
+
+		"type": "function"
+
+	},
+
+	{
+
+		"constant": true,
+
+		"inputs": [],
+
+		"name": "owner",
+
+		"outputs": [
+
+			{
+
+				"internalType": "address",
+
+				"name": "",
+
+				"type": "address"
+
+			}
+
+		],
+
+		"payable": false,
+
+		"stateMutability": "view",
+
+		"type": "function"
+
+	},
+
+	{
+
+		"constant": true,
+
+		"inputs": [
+
+			{
+
+				"internalType": "address",
+
+				"name": "",
+
+				"type": "address"
+
+			}
+
+		],
+
+		"name": "solved",
+
+		"outputs": [
+
+			{
+
+				"internalType": "bool",
+
+				"name": "",
+
+				"type": "bool"
+
+			}
+
+		],
+
+		"payable": false,
+
+		"stateMutability": "view",
+
+		"type": "function"
+
+	}
+
+]
+```

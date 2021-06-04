@@ -45,3 +45,5 @@ contract sherlock{
 ...................[REDACTED]................... 
 }
 ```
+
+### DM me your results for verification at https://twitter.com/razzor_tweet

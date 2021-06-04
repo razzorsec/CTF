@@ -3,7 +3,7 @@
 Network: Rinkeby  
 Address:  0x3a6CAE3af284C82934174F693151842Bc71b02b2  
 
-# pseudocode
+# Contract
 
 ```
 pragma solidity ^0.8.0;

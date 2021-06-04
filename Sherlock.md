@@ -31,8 +31,8 @@ contract sherlock{
     bool private _Password = false;
     address private owner;
     uint16 private counter;
-    bytes32 public constant thePassword = **....[REDACTED]**
-    bytes32 private constant ohNoNoNoNoNo = **....[REDACTED]**
+    bytes32 public constant thePassword = ...................[REDACTED]...................
+    bytes32 private constant ohNoNoNoNoNo = .................[REDACTED]...................
     bytes32[4] private passHashes;
     struct Passwords {
         bytes32 name;
@@ -42,6 +42,6 @@ contract sherlock{
     Passwords[] private passwords;
     mapping (uint256 => Passwords) private destiny;
 
-**....[REDACTED]**    
+...................[REDACTED]................... 
 }
 ```

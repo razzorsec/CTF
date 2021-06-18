@@ -1,7 +1,7 @@
 # Minion
 Call Me Anytime! Wait... Can You Even Call Me?  
-Network: Rinkeby
-Address: 0xe3Bf6D5379fD80C44156bAa4f3D8e7F507f6bcd1
+**Network**: Rinkeby  
+**Address**: 0xe3Bf6D5379fD80C44156bAa4f3D8e7F507f6bcd1
 ##  Contract Code
 ```
 pragma solidity ^0.8.0;

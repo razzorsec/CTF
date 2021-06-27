@@ -29,7 +29,7 @@ contract Minion{
         require(tx.origin != msg.sender, "Well we are not allowing EOAs, sorry");
         require(!isContract(msg.sender), "Well we don't allow Contracts either");
         require(msg.value >= MINIMUM_CONTRIBUTION, "Minimum Contribution needed is 0.1 ether");
-        require(msg.value <= MAXIMUM_CONTRIBUTION, "How did you get so much money? Max allowed is 0.5 ether");
+        require(msg.value <= MAXIMUM_CONTRIBUTION, "How did you get so much money? Max allowed is 0.2 ether");
         require(block.timestamp % 120 >= 0 && block.timestamp % 120 < 60, "Not the right time");
         contributionAmount[msg.sender] += msg.value;
         

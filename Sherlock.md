@@ -46,4 +46,5 @@ contract sherlock{
 }
 ```
 
-### DM me your results for verification at https://twitter.com/razzor_tweet
+### Writeup
+[Official Writeup](https://medium.com/@razzor_writes/sherlock-writeup-1fb5521ecd3a)
